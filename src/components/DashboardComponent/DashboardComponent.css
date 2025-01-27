@@ -1,0 +1,121 @@
+
+.dashboard-container {
+    background-color: #166197; 
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  
+  .dashboard-container .metrics-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-container .metric-card {
+    background-color: #21C174; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container .metric-card h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .dashboard-container .metric-card p {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+
+  .dashboard-container .charts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-container .chart-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container .chart-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+
+  .recharts-responsive-container {
+    background-color: #f4f4f4; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .dashboard-container .button {
+    background-color: #21C174;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard-container .button:hover {
+    background-color: #1a9e5c;
+  }
+  
+
+.recent-tickets-container {
+    background-color: #166197; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; 
+  }
+  
+
+  .recent-tickets-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f7f3; 
+    color: #333; 
+    border-radius: 8px;
+  }
+  
+  
+  .recent-tickets-container th {
+    background-color: #21C174; 
+    color: rgb(0, 0, 0); 
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+
+  .recent-tickets-container td {
+    background-color: #17b215; 
+    color: #000000;
+    padding: 12px;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+ 
+  .recent-tickets-container tr:hover td {
+    transition: 0.9s;
+    background-color: #d0f4e4; 
+  }
+  
+  .text-lg.font-semibold {
+    color: black;
+  }
+  

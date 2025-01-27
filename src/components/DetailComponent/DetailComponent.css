@@ -1,0 +1,84 @@
+
+.ticket-details-container {
+    background-color: #166197; 
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+
+  .ticket-details-container select {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    width: 100px; 
+    background-color: #1e80d6; 
+    color: black; 
+  }
+  
+ 
+  .ticket-details-container .status-container,
+  .ticket-details-container .priority-container {
+    margin-bottom: 15px;
+  }
+  
+ 
+  .ticket-details-container button {
+    padding: 10px 20px;
+    background-color: #21C174; 
+    color: rgb(0, 0, 0);
+    border: 2px solid #105B36;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+
+  .ticket-details-container button.delete-comment {
+    margin-left: 10px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .ticket-details-container button:hover {
+    background-color: #40ba46; 
+  }
+  
+  .ticket-details-container textarea {
+    width: 50%;
+    height: 50px; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    resize: none; 
+    background-color: #f0f8ff; 
+    color: black;
+  }
+  
+
+  .ticket-details-container .no-comments {
+    font-style: italic;
+    color: #000000;
+  }
+  
+  .ticket-details-container .back-button {
+    margin-top: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #21C174;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .ticket-details-container .back-button:hover {
+    background-color: #21C174;
+    color: white;
+  }
+  

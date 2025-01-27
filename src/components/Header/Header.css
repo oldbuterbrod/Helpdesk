@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: 101px;
+  background: #1c6d7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; 
+  z-index: 1; 
+}
+
+.header-title {
+  color: #C2C2C2;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}

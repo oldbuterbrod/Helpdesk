@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex; 
+  margin-top: 80px;
+  margin-left: 335px; 
+  height: 100vh; 
+  box-sizing: border-box; 
+}
+
+.content {
+  background: linear-gradient(180deg, #14D3E8 0%, #56CF2A 50%, #0B7682 100%);
+  flex: 1; 
+  padding: 20px;
+  overflow-y: auto; 
+}
